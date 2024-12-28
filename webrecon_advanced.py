@@ -1,3 +1,9 @@
+# tool made by lokesh kumar
+# Lokesh Kumar
+# [Github](https://github.com/trmxvibs/webrecon)
+# [Youtube](https://youtube.com/@termuxvibes)
+
+
 import os
 import webbrowser
 import random
