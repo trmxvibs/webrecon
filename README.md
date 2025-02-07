@@ -21,6 +21,19 @@ sudo apt-get install whois dnsutils nmap netcat-openbsd
 ```sh
 pkg update && pkg upgrade -y && pkg install -y whois dnsutils nmap netcat-openbsd
 ```
+# How to use
+## Clone Repository in Directory 
+```sh
+git clone https://github.com/trmxvibs/webrecon && cd webrecon
+```
+## Make file Excutable 
+```sh
+chmod +x webrecon_advanced.py
+```
+## Run the main file
+```sh
+python3 webrecon_advanced.py
+```
 
 # Features 🌟
 ## Ping Test 🏓
