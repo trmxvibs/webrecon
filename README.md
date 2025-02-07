@@ -15,11 +15,11 @@ You can install these packages using the following commands:
 ### Kali Linux
 ```sh
 sudo apt-get update
-sudo apt-get install whois dnsutils nmap netcat-openbsd
+sudo apt-get install git whois dnsutils nmap netcat-openbsd
 ```
 ### Termux 
 ```sh
-pkg update && pkg upgrade -y && pkg install -y whois dnsutils nmap netcat-openbsd
+pkg update && pkg upgrade -y && pkg install -y git whois dnsutils nmap netcat-openbsd
 ```
 # How to use
 ## Clone Repository in Directory 
