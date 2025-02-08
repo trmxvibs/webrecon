@@ -211,8 +211,15 @@ def nmap_menu():
 # Sub-menu for Banner Grabbing
 def banner_grabbing():
     domain = input("Enter domain for Banner Grabbing (e.g., example.com): ")
-    os.system(f"nc -v {domain} 80")
-
+    try:
+        os.system(f"nc -v {domain} 80")
+    except Exception as e:
+        print(f"Netcat failed: {e}")
+        print("Trying with telnet...")
+        try:
+            os.system(f"telnet {domain} 80")
+        except Exception as e:
+            print(f"Telnet failed: {e}")
 # Open YouTube Channel
 def open_youtube():
     print("Opening Termux Vibes YouTube Channel...")
