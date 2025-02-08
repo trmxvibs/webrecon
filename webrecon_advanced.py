@@ -227,6 +227,7 @@ def open_youtube():
 
 # Main Function
 def main():
+    os.system('clear' ) # to clear the terminal 
     loading_bars()
     while True:
         banner()
