@@ -1,7 +1,7 @@
 # tool made by lokesh kumar
 # Lokesh Kumar
 # [Github](https://github.com/trmxvibs/webrecon)
-# [Youtube](https://youtube.com/@termuxvibes)
+# [Youtube](https://youtube.com/@termux2)
 
 
 import os
