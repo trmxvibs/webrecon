@@ -305,7 +305,7 @@ Scan a List of Targets (File input)
 # Author ✍️
 Lokesh Kumar
 
-# YouTube  [Termux Vibes](https://www.youtube.com/@TermuxVibes)
+# YouTube  [Termux Vibes](https://www.youtube.com/@Termux2)
 
 
 
