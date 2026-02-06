@@ -20,6 +20,7 @@ This tool eliminates the need for `pip install` or external package managers, fo
 
 ![Modules](https://img.shields.io/badge/Modules-9_Active-informational?style=flat-square)
 ![Networking](https://img.shields.io/badge/Networking-Socket_&_Subprocess-lightgrey?style=flat-square)
+<img width="726" height="298" alt="image" src="https://github.com/user-attachments/assets/b0ece6db-18f0-4122-a6c7-631b21b8b9c4" />
 
 | Module | Status | Description |
 | :--- | :--- | :--- |
@@ -69,6 +70,8 @@ No external libraries required.
     ```cmd
     python main.py
     ```
+
+<img width="1821" height="528" alt="image" src="https://github.com/user-attachments/assets/11a3f30f-2ea1-4378-8c07-027d9aa14312" />
 
 ## Usage
 
