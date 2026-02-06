@@ -1,0 +1,36 @@
+name: Auto Update Date
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: 
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Update Date in README
+        run: |
+          TODAY=$(date +'%Y--%m--%d')
+          
+         
+          sed -i "s/Last_Updated-[0-9]\{4\}--[0-9]\{2\}--[0-9]\{2\}/Last_Updated-$TODAY/g" README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "WebRecon Bot"
+          git config --global user.email "bot@noreply.github.com"
+          
+          if [[ -n $(git status -s) ]]; then
+            git add README.md
+            git commit -m "Auto-update: Daily Patch Applied"
+            git push
+          else
+            echo "No changes to commit."
+          fi
