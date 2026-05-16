@@ -26,7 +26,7 @@ This tool eliminates the need for `pip install` or external package managers, fo
 | :--- | :--- | :--- |
 | **Ping Target** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Checks host availability with OS-adaptive ICMP packets. |
 | **Whois Lookup** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Fetches domain registration and registrar data. |
-| **Port Scanner** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Multi-threaded native Python scanner for critical ports. |
+| **Port Scanner** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Multi-threaded native  scanner for critical ports. |
 | **DNS Lookup** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Retrieves standard DNS records (A, MX, NS). |
 | **GeoIP Tracker** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Locates target coordinates, ISP, and Region via API. |
 | **Admin Finder** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Scans for administrative login paths (Handles 200/403 codes). |
@@ -47,9 +47,9 @@ No external libraries required.
     ```bash
     pkg update && pkg upgrade -y
     ```
-2.  **Install Python & Git**
+2.  **Install  & Git**
     ```bash
-    pkg install python git -y
+    pkg install  git -y
     ```
 3.  **Clone Repository**
     ```bash
@@ -58,7 +58,7 @@ No external libraries required.
 4.  **Run Tool**
     ```bash
     cd webrecon
-    python main.py
+    python3 main.py
     ```
 
 ### Windows
@@ -68,7 +68,7 @@ No external libraries required.
 3.  Open Command Prompt (CMD) in the folder.
 4.  Execute:
     ```cmd
-    python main.py
+    python3 main.py
     ```
 
 <img width="1821" height="528" alt="image" src="https://github.com/user-attachments/assets/11a3f30f-2ea1-4378-8c07-027d9aa14312" />
