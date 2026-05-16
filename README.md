@@ -1,124 +1,333 @@
-# WebRecon
+<div align="center">
 
-![Language](https://img.shields.io/badge/Language-Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Linux_|_Windows_|_Termux-555555?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
-![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-0052cc?style=for-the-badge)
-![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
-![Size](https://img.shields.io/badge/Repo_Size-Lightweight-orange?style=for-the-badge)
+# WEBRECON 2.0 PRO
 
-## Description
+<img src="https://img.shields.io/badge/Reconnaissance-Framework-black?style=for-the-badge">
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Platform-Termux_|_Linux_|_Windows-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge">
+<img src="https://img.shields.io/github/stars/trmxvibs/webrecon?style=for-the-badge">
+<img src="https://img.shields.io/github/forks/trmxvibs/webrecon?style=for-the-badge">
+<img src="https://img.shields.io/github/issues/trmxvibs/webrecon?style=for-the-badge">
+<img src="https://img.shields.io/github/license/trmxvibs/webrecon?style=for-the-badge">
+<img src="https://img.shields.io/badge/CLI-Cyberpunk-red?style=for-the-badge">
+<img src="https://img.shields.io/badge/Made%20For-Ethical%20Hackers-darkred?style=for-the-badge">
+<img src="https://img.shields.io/badge/Threaded-Scanning-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/Powered%20By-Rich-magenta?style=for-the-badge">
+<img src="https://img.shields.io/badge/API-Integrated-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/Terminal-Optimized-informational?style=for-the-badge">
 
-![Category](https://img.shields.io/badge/Category-Reconnaissance-blueviolet?style=flat-square)
-![Type](https://img.shields.io/badge/Type-CLI_Tool-important?style=flat-square)
+<br>
 
-WebRecon is a lightweight, dependency-free reconnaissance framework designed for security professionals and ethical hackers. It is built entirely using Python's standard libraries, ensuring maximum portability across restricted environments like Termux, Windows CMD, and minimal Linux servers.
+### Fast • Lightweight • Stylish • Cross Platform
 
-This tool eliminates the need for `pip install` or external package managers, focusing on core functionality and speed. It aggregates multiple reconnaissance techniques into a single, unified command-line interface.
+</div>
 
-## Functionality Overview
+---
 
-![Modules](https://img.shields.io/badge/Modules-9_Active-informational?style=flat-square)
-![Networking](https://img.shields.io/badge/Networking-Socket_&_Subprocess-lightgrey?style=flat-square)
-<img width="726" height="298" alt="image" src="https://github.com/user-attachments/assets/b0ece6db-18f0-4122-a6c7-631b21b8b9c4" />
+# About
 
-| Module | Status | Description |
-| :--- | :--- | :--- |
-| **Ping Target** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Checks host availability with OS-adaptive ICMP packets. |
-| **Whois Lookup** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Fetches domain registration and registrar data. |
-| **Port Scanner** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Multi-threaded native  scanner for critical ports. |
-| **DNS Lookup** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Retrieves standard DNS records (A, MX, NS). |
-| **GeoIP Tracker** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Locates target coordinates, ISP, and Region via API. |
-| **Admin Finder** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Scans for administrative login paths (Handles 200/403 codes). |
-| **Subdomain Hunter** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Enumerates subdomains via Certificate Transparency logs. |
-| **WAF Detector** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Identifies Firewalls via HTTP Header analysis. |
-| **Robots Reader** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Extracts and displays robots.txt content directly. |
+WebRecon 2.0 Pro is a modern terminal-based reconnaissance framework designed for:
+- Ethical Hackers
+- Bug Bounty Hunters
+- Pentesters
+- OSINT Researchers
+- Cybersecurity Learners
 
-## Installation
+The framework combines:
+- Fast threaded scanning
+- Real reconnaissance modules
+- Rich-powered terminal UI
+- Cross-platform support
+- Lightweight architecture
 
-![Install](https://img.shields.io/badge/Install-Fast-green?style=flat-square)
-![Dependencies](https://img.shields.io/badge/Dependencies-None-red?style=flat-square)
+Unlike bloated recon frameworks, WebRecon focuses on speed, usability, and clean output.
 
-### Linux / Termux
+---
 
-No external libraries required.
+# Features
 
-1.  **Update Environment**
-    ```bash
-    pkg update && pkg upgrade -y
-    ```
-2.  **Install  & Git**
-    ```bash
-    pkg install  git -y
-    ```
-3.  **Clone Repository**
-    ```bash
-    git clone https://github.com/trmxvibs/webrecon.git
-    ```
-4.  **Run Tool**
-    ```bash
-    cd webrecon
-    python3 main.py
-    ```
+<img src="https://img.shields.io/badge/Boot%20Sequence-Cinematic-success?style=flat-square">
+<img src="https://img.shields.io/badge/UI-Rich%20Terminal-blue?style=flat-square">
+<img src="https://img.shields.io/badge/Performance-Optimized-red?style=flat-square">
+<img src="https://img.shields.io/badge/Execution-MultiThreaded-orange?style=flat-square">
+<img src="https://img.shields.io/badge/Support-Termux-important?style=flat-square">
+<img src="https://img.shields.io/badge/Support-Windows-important?style=flat-square">
+<img src="https://img.shields.io/badge/Support-Linux-important?style=flat-square">
 
-### Windows
+---
 
-1.  Download Python 3.x from [python.org](https://www.python.org/).
-2.  Clone or Download this repository.
-3.  Open Command Prompt (CMD) in the folder.
-4.  Execute:
-    ```cmd
-    python3 main.py
-    ```
+# Recon Modules
 
-<img width="1821" height="528" alt="image" src="https://github.com/user-attachments/assets/11a3f30f-2ea1-4378-8c07-027d9aa14312" />
+| ID | Module | Description |
+|----|---------|-------------|
+| 01 | Stealth Ping | Detects host availability and latency |
+| 02 | Whois Lookup | Retrieves registrar and domain data |
+| 03 | Port Scanner | Fast threaded scan for common ports |
+| 04 | DNS Enumeration | Extracts DNS records |
+| 05 | Geo-IP Tracker | Finds ISP, region, country and coordinates |
+| 06 | Admin Finder | Searches admin/login panels |
+| 07 | Subdomain Hunter | Enumerates subdomains |
+| 08 | WAF Detector | Detects Cloudflare, AWS, Akamai etc |
+| 09 | Robots.txt Reader | Extracts hidden/disallowed paths |
+| 10 | Developer Channel | Opens official YouTube channel |
 
-## Usage
+---
 
-![Interface](https://img.shields.io/badge/Interface-CLI-black?style=flat-square)
-![User](https://img.shields.io/badge/User-Root/Admin-red?style=flat-square)
+# Preview
 
-Launch the tool and select a module by entering the corresponding index number.
-
-```python
---- WebRecon Functional Toolkit ---
-System: Linux | User: root
-
-1. Ping Target
-2. Whois Lookup
-3. Port Scanner
-4. DNS Lookup
-5. GeoIP Tracker
-6. Admin Finder
-7. Subdomain Hunter
-8. WAF/Header Detector
-9. Robots.txt Reader
-0. Exit
+```text
+ ██╗    ██╗███████╗██████╗ ██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗
+ ██║    ██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║
+ ██║ █╗ ██║█████╗  ██████╔╝██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║
+ ██║███╗██║██╔══╝  ██╔══██╗██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║
+ ╚███╔███╔╝███████╗██████╔╝██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║
+  ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
 ```
 
-### Configuration
-- Port Scanner: Configured to scan the top 15 most common ports for speed optimization.
+---
 
-- Timeouts: Network requests default to a 5-second timeout to prevent hanging.
+# Installation
 
-- User-Agent: Uses a standard Mozilla user-agent to bypass basic bot filters.
+<img src="https://img.shields.io/badge/Installation-Easy-success?style=flat-square">
+<img src="https://img.shields.io/badge/Dependencies-Minimal-blue?style=flat-square">
 
-## Legal Disclaimer
-**This tool is developed for educational purposes and authorized security testing. The author makes no warranties regarding the tool's performance or suitability for any specific purpose.**
-**Do not scan targets without explicit permission. The user is solely responsible for compliance with all applicable local, state, and federal laws.**
+---
 
-Author & Support
-YouTube: [Termux Vibes](https://youtube.com/@termux2)
+## Linux / Kali / Ubuntu
 
+### Update Packages
+```bash
+sudo apt update && sudo apt upgrade -y
+```
 
+### Install Requirements
+```bash
+sudo apt install python3 git -y
+```
 
+### Clone Repository
+```bash
+git clone https://github.com/trmxvibs/webrecon.git
+```
 
+### Open Directory
+```bash
+cd webrecon
+```
 
+### Install Python Packages
+```bash
+pip install -r requirement.txt
+```
 
+### Run Framework
+```bash
+python3 main.py
+```
 
+---
 
+## Termux
 
+### Update Termux
+```bash
+pkg update && pkg upgrade -y
+```
 
+### Install Packages
+```bash
+pkg install python git -y
+```
 
+### Clone Repository
+```bash
+git clone https://github.com/trmxvibs/webrecon.git
+```
 
+### Open Folder
+```bash
+cd webrecon
+```
 
+### Install Dependencies
+```bash
+pip install -r requirement.txt
+```
+
+### Start Tool
+```bash
+python main.py
+```
+
+---
+
+## Windows
+
+### Install Python
+Download Python:
+```text
+https://python.org
+```
+
+During installation enable:
+```text
+Add Python to PATH
+```
+
+---
+
+### Clone Repository
+```cmd
+git clone https://github.com/trmxvibs/webrecon.git
+```
+
+---
+
+### Open Folder
+```cmd
+cd webrecon
+```
+
+---
+
+### Install Dependencies
+```cmd
+pip install -r requirement.txt
+```
+
+---
+
+### Run
+```cmd
+python main.py
+```
+
+---
+
+# Dependencies
+
+```txt
+rich==13.7.0
+requests==2.31.0
+```
+
+---
+
+# Framework Highlights
+
+<img src="https://img.shields.io/badge/MultiThreaded-Yes-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/CrossPlatform-Yes-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/API%20Based-Yes-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Beginner%20Friendly-Yes-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Low%20RAM%20Usage-Optimized-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Fast%20Execution-Enabled-success?style=for-the-badge">
+
+---
+
+# APIs Used
+
+| Service | Purpose |
+|----------|---------|
+| HackerTarget API | Whois + Subdomain Data |
+| Google DNS API | DNS Enumeration |
+| IP-API | GeoIP Tracking |
+| IPify | Public IP Detection |
+
+---
+
+# Supported WAF Detection
+
+- Cloudflare
+- Sucuri
+- Akamai
+- AWS WAF
+- Fastly
+- Imperva / Incapsula
+
+---
+
+# File Outputs
+
+Large outputs are automatically saved:
+- Subdomain Results
+- robots.txt Dumps
+
+Generated files:
+```text
+example_subdomains.txt
+example_robots.txt
+```
+
+---
+
+# Tested On
+
+<img src="https://img.shields.io/badge/Tested%20On-Kali-blue?style=flat-square">
+<img src="https://img.shields.io/badge/Tested%20On-Ubuntu-blue?style=flat-square">
+<img src="https://img.shields.io/badge/Tested%20On-Termux-blue?style=flat-square">
+<img src="https://img.shields.io/badge/Tested%20On-Windows%2011-blue?style=flat-square">
+
+---
+
+# Legal Disclaimer
+
+This project is intended strictly for:
+- Educational purposes
+- Authorized security testing
+- Ethical hacking practice
+
+The developer is not responsible for misuse, damages, or illegal activities performed using this framework.
+
+Always obtain proper authorization before scanning any target.
+
+---
+
+# Developer
+
+<div align="center">
+
+## Lokesh Kumar
+
+<img src="https://img.shields.io/badge/GitHub-trmxvibs-black?style=for-the-badge&logo=github">
+
+### Repository
+https://github.com/trmxvibs/webrecon
+
+### YouTube
+https://youtube.com/@termux2
+
+</div>
+
+---
+
+# Support The Project
+
+If you like WebRecon:
+
+⭐ Star the repository  
+🍴 Fork the project  
+🐛 Report bugs  
+⚡ Suggest improvements  
+
+---
+
+# License
+
+<img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge">
+
+MIT License © 2026
+
+---
+
+<div align="center">
+
+# WEBRECON 2.0 PRO
+
+### Lightweight Reconnaissance Framework For Modern Hackers
+
+<img src="https://img.shields.io/badge/Built%20With-Python-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Terminal-Weaponized-darkred?style=for-the-badge">
+<img src="https://img.shields.io/badge/Recon-Ready-success?style=for-the-badge">
+
+</div>
